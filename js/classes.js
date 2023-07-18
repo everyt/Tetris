@@ -82,6 +82,7 @@ class Basket {
       this.updateBlock(this.block.loc, false);
     } else {
       this.init();
+      this.textController.init();
     }
   }
 

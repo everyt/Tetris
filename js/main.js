@@ -6,14 +6,6 @@ basket.block = block;
 let textController = new TextController(level_id, lines_id, score_id);
 basket.textController = textController;
 
-const KEY = {
-  SPACE: ' ',
-  UP: 'ArrowUp',
-  DOWN: 'ArrowDown',
-  LEFT: 'ArrowLeft',
-  RIGHT: 'ArrowRight',
-};
-
 const keyFunction = {
   [KEY.SPACE]: (p) => ({...p, y: p.y + 1}),
   [KEY.DOWN]: (p) => ({...p, y: p.y + 1}),

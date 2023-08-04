@@ -15,7 +15,6 @@ const keyFunction = {
 };
 
 (() => {
-  window.removeEventListener("keydown", onKeydownEvent);
   window.addEventListener("keydown", onKeydownEvent);
   basket.placeBlock();
   repeater();
